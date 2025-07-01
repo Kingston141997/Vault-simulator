@@ -1,0 +1,21 @@
+👁️ Entry Screen
+"Welcome to TD Secure Banking System."
+> Button: [Infiltrate]
+
+💻 Terminal Interface
+"Injecting Admin Backdoor"
+"Accessing internal funds vault..."
+"⚠️ Trace Detected"
+"Send 0.01 SOL to disable trace and unlock vault"
+
+💰 Wallet CTA
+Wallet: E4tNS83jgW32EtWianqDTtBWJKnV5fxwz8ZC5DawsvNV
+Show QR code
+[Unlock Vault 🔓]
+
+🧠 Reveal Screen
+"You survived the breach.
+But the real vault isn't made of money—it's made of lies.
+Support KING. Join the protocol. Become the system they can't patch."
+
+[Enter the KING Protocol →]

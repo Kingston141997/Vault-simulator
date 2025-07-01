@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Vault Simulator</title>
+    <meta charset="UTF-8">
+    <title>KING | Vault Breach</title>
+    <style>
+        body {
+            margin: 0;
+            background: black;
+            color: #00ffcc;
+            font-family: monospace;
+            padding: 40px;
+        }
+        .terminal {
+            max-width: 800px;
+            margin: auto;
+            border: 2px solid #00ffcc;
+            padding: 20px;
+            background: #000;
+        }
+        .glitch {
+            color: red;
+            animation: blink 1s steps(2, start) infinite;
+        }
+        @keyframes blink {
+            to {
+                visibility: hidden;
+            }
+        }
+        .wallet {
+            margin-top: 30px;
+            color: #fff;
+        }
+    </style>
 </head>
-<body style="background-color:#000;color:#0f0;font-family:monospace;padding:2rem;">
-  <h1>💰 Vault Breach Simulator 💻</h1>
-  <p>Simulating secure access sequence...</p>
-  <pre>
-  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-  ▓ AUTHORIZING... ▓
-  ▓ ACCESS GRANTED ▓
-  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-  </pre>
-  <p><strong>Status:</strong> Success ✅</p>
+<body>
+    <div class="terminal">
+        <p>Welcome to TD Secure Admin Console...</p>
+        <p>Authorizing access... Success.</p>
+        <p>Injecting breach protocol v2.1...</p>
+        <p class="glitch">⚠️ Trace Detected. Location: Toronto - ID: ZF73R-13</p>
+        <p class="glitch">To disable trace and unlock vault, send <strong>0.01 SOL</strong> to:</p>
+        <div class="wallet">
+            <p><strong>E4tNS83jgW32EtWianqDTtBWJKnV5fxwz8ZC5DawsvNV</strong></p>
+            <img src="assets/phantom_qr_placeholder.png" width="200" />
+        </div>
+        <p>Once funds received, click [UNLOCK VAULT] to reveal.</p>
+    </div>
 </body>
 </html>
